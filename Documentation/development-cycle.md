@@ -37,11 +37,13 @@ It is the reviewer's responsible to ensure
 - __Syntax adheres to [the project standard](Documents/coding-style-guideline.md)__, and 
 - __design conforms to [_SOLID_ principles](https://en.wikipedia.org/wiki/SOLID)__.
 
-Once you are happy with the pull request, `Merge` it. Make sure the remote branch is going to be closed as well.
+Once you are happy with the pull request, ___merge___ it.
+
+Ensure that the remote branch is closed as well.
 
 ### Helper Scripts
 
-If you do not want to disturb your current working directory, you can use `git worktree` to checkout the reviewing branch in a new directory. `start_pr` and `end_pr` aliases help you to do so.
+you can use `git worktree` to checkout the branch to be reviewed in a new directory. `start_pr` and `end_pr` aliases help you to do so.
 
 Add the `start_pr` and `end_pr` handles to your bash profile as described [here](https://github.com/hadibadjian/dotfiles/blob/master/.aliases#L148).
 
@@ -49,4 +51,4 @@ Change the [`base_path`](https://github.com/hadibadjian/dotfiles/blob/master/.al
 
 Start the pull request review by `start_pr <branch_name>`. This command will take you to the directory the PR is checked out.
 
-Once you are done reviewing the code base (executing tests, monitor warnings and confirming successful builds), end the review by executing `end_pr`. This command will take you back to the directory you used to be before starting the review.
+Once you are done reviewing the code base (executing tests, monitor warnings and confirming successful builds), end the review by executing `end_pr`. This command takes you back to the working directory prior to starting the code review.
