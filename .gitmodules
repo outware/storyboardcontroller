@@ -1,0 +1,3 @@
+[submodule "omscripts"]
+	path = omscripts
+	url = git@bitbucket.org:outware/omscripts.git
