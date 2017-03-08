@@ -2,7 +2,7 @@
 
 ## Test and Behavior Driven Development
 
-Unit tests are necessary unless proven to be difficult by the platform TDD frameworks immaturity and limitation.
+Tests are necessary unless proven to be difficult due to platform restrictions or immaturity and/or restrictions imposed by the platform's testing frameworks
 
 ## Branching
 
