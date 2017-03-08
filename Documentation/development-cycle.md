@@ -30,11 +30,12 @@ If necessary, a description may be added after an empty line below the title.
 
 ## Pull Request
 
-It is the reviewer's responsible to 
-- __ensure the build succeeds__,
+It is the reviewer's responsible to ensure
+
+- __the build succeeds__,
 - __the tests pass__, 
-- __syntax is according to [the project standard](CodingStyleGuide.md)__, and 
-- __design is conforming to [*SOLID* principles](https://en.wikipedia.org/wiki/SOLID)__.
+- __Syntax adheres to [the project standard](Documents/coding-style-guideline.md)__, and 
+- __design conforms to [*SOLID* principles](https://en.wikipedia.org/wiki/SOLID)__.
 
 Once you are happy with the pull request, `Merge` it. Make sure the remote branch is going to be closed as well.
 
