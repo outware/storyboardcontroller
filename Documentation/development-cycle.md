@@ -8,11 +8,13 @@ Tests are necessary unless proven to be difficult due to platform restrictions o
 
 This project follows [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/).
 
-_Feature_ branches should match `feature/LMA-000` pattern.
+_Feature_ branches should be prefixed with `feature/`.
 
-_Task_ branches should match `tech/LMA-000` pattern.
+_Task_ branches should be prefixed with `tech/`.
 
-_Hot Fix_ branches should match `defect/LMA-000` pattern.
+_Hot Fix_ branches should be prefixed with `defect/`.
+
+An example of the name for a feature branch would be `feature/LMA-001`, where `LMA-001` is the card number assigned by JIRA.
 
 ## Committing
 
