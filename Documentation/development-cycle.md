@@ -6,8 +6,6 @@ Tests are necessary unless proven to be difficult due to platform restrictions o
 
 ## Branching
 
-### Branching Workflow
-
 This project follows [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/).
 
 _Feature_ branches should match `feature/LMA-000` pattern.
@@ -16,7 +14,7 @@ _Task_ branches should match `tech/LMA-000` pattern.
 
 _Hot Fix_ branches should match `defect/LMA-000` pattern.
 
-## Commit
+## Committing
 
 Commits should be atomic. Commit message should start with a verb in present tense. Commit title should be short and to the point. If necessary add commit descriptions after an empty line below the title.
 
