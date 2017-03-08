@@ -18,7 +18,13 @@ An example of the name for a feature branch would be `feature/LMA-001`, where `L
 
 ## Committing
 
-Commits should be atomic. Commit message should start with a verb in present tense. Commit title should be short and to the point. If necessary add commit descriptions after an empty line below the title.
+Commits should be atomic.
+
+Messages should start with a verb in present tense.
+
+Titles should be short and to the point.
+
+If necessary, a description may be added after an empty line below the title.
 
 - [5 Useful Tips For A Better Commit Message]( https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
 
