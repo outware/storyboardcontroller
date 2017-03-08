@@ -35,7 +35,7 @@ It is the reviewer's responsible to ensure
 - __the build succeeds__,
 - __the tests pass__, 
 - __Syntax adheres to [the project standard](Documents/coding-style-guideline.md)__, and 
-- __design conforms to [*SOLID* principles](https://en.wikipedia.org/wiki/SOLID)__.
+- __design conforms to [_SOLID_ principles](https://en.wikipedia.org/wiki/SOLID)__.
 
 Once you are happy with the pull request, `Merge` it. Make sure the remote branch is going to be closed as well.
 
