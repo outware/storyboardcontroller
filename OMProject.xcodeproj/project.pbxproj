@@ -469,7 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				INFOPLIST_FILE = "$(PROJECT_NAME)/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
@@ -600,7 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(PROJECT_NAME)/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
@@ -611,7 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				INFOPLIST_FILE = "$(PROJECT_NAME)/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 			};
