@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		279179171E6FD2F200F1119B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279179161E6FD2F200F1119B /* Assets.xcassets */; };
 		279179191E6FD2F700F1119B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279179181E6FD2F700F1119B /* Images.xcassets */; };
-		2791791B1E6FD2FD00F1119B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2791791A1E6FD2FD00F1119B /* Info.plist */; };
 		CED6AAD61BD9D3F8001911A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6AAD51BD9D3F8001911A0 /* AppDelegate.swift */; };
 		CED6AAD81BD9D3F8001911A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6AAD71BD9D3F8001911A0 /* ViewController.swift */; };
 		CED6AADB1BD9D3F8001911A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED6AAD91BD9D3F8001911A0 /* Main.storyboard */; };
@@ -283,7 +282,7 @@
 		CED6AACA1BD9D3F8001911A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Outware Mobile";
 				TargetAttributes = {
 					CED6AAD11BD9D3F8001911A0 = {
@@ -330,7 +329,6 @@
 				CED6AAE01BD9D3F8001911A0 /* LaunchScreen.storyboard in Resources */,
 				279179191E6FD2F700F1119B /* Images.xcassets in Resources */,
 				279179171E6FD2F200F1119B /* Assets.xcassets in Resources */,
-				2791791B1E6FD2FD00F1119B /* Info.plist in Resources */,
 				CED6AADB1BD9D3F8001911A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,6 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier)";
 				PROJECT_NAME = OMProject;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
