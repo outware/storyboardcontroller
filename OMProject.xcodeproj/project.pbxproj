@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		279179171E6FD2F200F1119B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279179161E6FD2F200F1119B /* Assets.xcassets */; };
-		279179191E6FD2F700F1119B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279179181E6FD2F700F1119B /* Images.xcassets */; };
 		CED6AAD61BD9D3F8001911A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6AAD51BD9D3F8001911A0 /* AppDelegate.swift */; };
 		CED6AAD81BD9D3F8001911A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6AAD71BD9D3F8001911A0 /* ViewController.swift */; };
 		CED6AADB1BD9D3F8001911A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED6AAD91BD9D3F8001911A0 /* Main.storyboard */; };
@@ -89,7 +88,6 @@
 
 /* Begin PBXFileReference section */
 		279179161E6FD2F200F1119B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		279179181E6FD2F700F1119B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2791791A1E6FD2FD00F1119B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED6AAD21BD9D3F8001911A0 /* OMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6AAD51BD9D3F8001911A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 			children = (
 				279179161E6FD2F200F1119B /* Assets.xcassets */,
 				2791791A1E6FD2FD00F1119B /* Info.plist */,
-				279179181E6FD2F700F1119B /* Images.xcassets */,
 				CED6AADE1BD9D3F8001911A0 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
@@ -327,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED6AAE01BD9D3F8001911A0 /* LaunchScreen.storyboard in Resources */,
-				279179191E6FD2F700F1119B /* Images.xcassets in Resources */,
 				279179171E6FD2F200F1119B /* Assets.xcassets in Resources */,
 				CED6AADB1BD9D3F8001911A0 /* Main.storyboard in Resources */,
 			);
