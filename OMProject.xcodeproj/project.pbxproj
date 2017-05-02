@@ -11,7 +11,6 @@
 		279179171E6FD2F200F1119B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279179161E6FD2F200F1119B /* Assets.xcassets */; };
 		CED6AAF61BD9D3F8001911A0 /* GreetingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6AAF51BD9D3F8001911A0 /* GreetingFeature.swift */; };
 		CED6AAEB1BD9D3F8001911A0 /* GreetingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6AAEA1BD9D3F8001911A0 /* GreetingSpec.swift */; };
-		279179191E6FD2F700F1119B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279179181E6FD2F700F1119B /* Images.xcassets */; };
 		CED6AAE01BD9D3F8001911A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED6AADE1BD9D3F8001911A0 /* LaunchScreen.storyboard */; };
 		CED6AADB1BD9D3F8001911A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED6AAD91BD9D3F8001911A0 /* Main.storyboard */; };
 		CED6AAD81BD9D3F8001911A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6AAD71BD9D3F8001911A0 /* ViewController.swift */; };
@@ -93,7 +92,6 @@
 		CED6AAF11BD9D3F8001911A0 /* Features.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Features.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6AAF51BD9D3F8001911A0 /* GreetingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingFeature.swift; sourceTree = "<group>"; };
 		CED6AAEA1BD9D3F8001911A0 /* GreetingSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingSpec.swift; sourceTree = "<group>"; };
-		279179181E6FD2F700F1119B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2791791A1E6FD2FD00F1119B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED6AAEC1BD9D3F8001911A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED6AAF71BD9D3F8001911A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 			isa = PBXGroup;
 			children = (
 				279179161E6FD2F200F1119B /* Assets.xcassets */,
-				279179181E6FD2F700F1119B /* Images.xcassets */,
 				2791791A1E6FD2FD00F1119B /* Info.plist */,
 				CED6AADE1BD9D3F8001911A0 /* LaunchScreen.storyboard */,
 			);
@@ -327,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				279179171E6FD2F200F1119B /* Assets.xcassets in Resources */,
-				279179191E6FD2F700F1119B /* Images.xcassets in Resources */,
 				CED6AAE01BD9D3F8001911A0 /* LaunchScreen.storyboard in Resources */,
 				CED6AADB1BD9D3F8001911A0 /* Main.storyboard in Resources */,
 			);

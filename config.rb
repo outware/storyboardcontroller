@@ -24,7 +24,7 @@ module ProjectConfig
 
   PROJECT_NAME                  = "OMProject"
   PROJECT_PRODUCT_NAME          = "OMProject"
-  PROJECT_APPICONSET            = "#{PROJECT_NAME}/Images.xcassets/AppIcon.appiconset"
+  PROJECT_APPICONSET            = "#{PROJECT_NAME}/Assets.xcassets/AppIcon.appiconset"
   PROJECT_INFO_PLIST            = "#{PROJECT_NAME}/Info.plist"
 
   VALIDATION_BUNDLE_ID          = "au.com.outware.OMProject"
