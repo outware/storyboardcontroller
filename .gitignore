@@ -5,6 +5,8 @@
 ## Build generated
 build/
 DerivedData/
+environment.xcconfig
+xcodebuild*.log
 
 ## Various settings
 *.pbxuser
@@ -16,6 +18,9 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+
+# Reports
+CodeQualityReports/
 
 ## Other
 *.moved-aside
