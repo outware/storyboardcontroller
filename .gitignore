@@ -45,7 +45,7 @@ CodeQualityReports/
 
 # Carthage
 #
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+# For similar reasons as the Cocoapods one mentioned above.
+# Remove the line below to start tracking the Carthage directory
 
-Carthage/Build
+/Carthage/
