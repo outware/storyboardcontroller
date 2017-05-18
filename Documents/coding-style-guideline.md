@@ -5,14 +5,15 @@
 At high level, the project is structured as:
 
 - Project
-  + Frameworks
-  + Products
-  + Resources
-  + Source
-  + Specs
-  + Supporting Files
+    - Frameworks
+    - Products
+    - Resources
+    - Source
+    - Specs
+    - Supporting Files
 
 `Source` holds project source code categorized based on features.
+
 `Specs` holds project unit tests categorized based on corresponding features.
 
 ## Indentation
@@ -46,33 +47,38 @@ import Foundation
 ```swift
 //  Copyright © 2016 Outware Mobile. All rights reserved.
 
-class SDKPluggerSpec: QuickSpec {
+final class SDKPluggerSpec: QuickSpec {
+
   override func spec() {
+
     describe("plugSDK") {
+
       it("succeeds when all integrations are successful") {
         var pluggable = false
+
         SDKPlugger.plugSDKs([PluggableTestSDK()]).analysis(
-          ifSuccess: { _ in
-            pluggable = true
-          },
-          ifFailure: { error in })
+          ifSuccess: { _ in pluggable = true },
+          ifFailure: { _ in }
+        )
 
         expect(pluggable).toEventually(beTruthy())
       }
 
       it("fails when one integration fails") {
         var pluggable = true
+
         SDKPlugger.plugSDKs([PluggableTestSDK(), UnpluggableTestSDK()]).analysis(
-          ifSuccess: { _ in
-            pluggable = true
-          },
-          ifFailure: { error in
-            pluggable = false
-          })
+          ifSuccess: { _ in pluggable = true },
+          ifFailure: { _ in pluggable = false }
+        )
+
         expect(pluggable).toEventually(beFalsy())
       }
+
     }
+
   }
+
 }
 
 // MARK: Mocks
@@ -89,9 +95,10 @@ private class UnpluggableTestSDK: SDKPluggable {
   }
 }
 
-import Quick
 import Nimble
+import Quick
 import Result
+
 @testable import miraqle
 ```
 
@@ -122,6 +129,7 @@ func application(
 
 // single parameter
 func integrateSDKs() {
+
   SDKPlugger.plugSDKs([HockeySDK()]).analysis(
     ifSuccess: {
       dprint("\(self.dynamicType): completed \($0.count) out of \(1) integrations")
@@ -139,13 +147,15 @@ Profiling of Swift compile times has revealed patterns that improve compile time
 ### Lazy variable definitions
 
 Lazy variables defined using closures can take a long time to compile. Instead of:
+
 ```swift
 lazy var lazySignalProducer: SignalProducer<Bool, NoError> = { [unowned self] in
-    // return SignalProducer here
-  }()
+  // return SignalProducer here
+}()
 ```
 
 Prefer:
+
 ```swift
 lazy var lazySignalProducer: SignalProducer<Bool, NoError> = self.setUpLazySignalProducer()
 
@@ -168,8 +178,8 @@ let parentDictionary: NSDictionary = [
 ```
 
 Prefer below. It's not pretty, but compiles significantly faster.
-```swift
 
+```swift
 let value = optionalString ?? ""
 
 let childDictionary: [String: Int] = [
