@@ -2,7 +2,7 @@
 
 ## Problem at hand
 
-In order to inject dependencies to view controller, it is common to use one of the following pattern:
+In order to inject dependencies into view controllers, it is common to use one of the following patterns:
 
 * `prepare(for segue: UIStoryboardSegue, sender: Any?)` in a parent view controller (with storyboard)
 * custom initalisers (no storyboard)
@@ -30,4 +30,3 @@ The dependency graph then looks like this:
 
 Given this architecture, it is then possible to initialise `ViewControllerC` from somewhere else in the application
 without depending on the other 2 view controllers.
-
