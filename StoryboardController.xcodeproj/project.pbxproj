@@ -101,11 +101,11 @@
 		CED6AAF71BD9D3F8001911A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBC10FF91F09EBCA00D2AD1D /* MainStoryboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStoryboardController.swift; sourceTree = "<group>"; };
 		DBC10FFE1F09F02600D2AD1D /* MainStoryboardControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStoryboardControllerSpec.swift; sourceTree = "<group>"; };
-		CED6AAD21BD9D3F8001911A0 /* OMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6AAE61BD9D3F8001911A0 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC10FF51F09D8E300D2AD1D /* Storyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Storyboard.h; sourceTree = "<group>"; };
 		DBC10FF61F09D8E300D2AD1D /* Storyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Storyboard.m; sourceTree = "<group>"; };
 		DBC10FF81F09EA9400D2AD1D /* StoryboardController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardController-Bridging-Header.h"; sourceTree = "<group>"; };
+		CED6AAD21BD9D3F8001911A0 /* StoryboardController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC10FF71F09D8E300D2AD1D /* StoryboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardController.swift; sourceTree = "<group>"; };
 		CED6AAD71BD9D3F8001911A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CED6AADA1BD9D3F8001911A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -161,8 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				CED6AAF11BD9D3F8001911A0 /* Features.xctest */,
-				CED6AAD21BD9D3F8001911A0 /* OMProject.app */,
 				CED6AAE61BD9D3F8001911A0 /* Specs.xctest */,
+				CED6AAD21BD9D3F8001911A0 /* StoryboardController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,9 +247,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CED6AAD11BD9D3F8001911A0 /* OMProject */ = {
+		CED6AAD11BD9D3F8001911A0 /* StoryboardController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CED6AAFA1BD9D3F8001911A0 /* Build configuration list for PBXNativeTarget "OMProject" */;
+			buildConfigurationList = CED6AAFA1BD9D3F8001911A0 /* Build configuration list for PBXNativeTarget "StoryboardController" */;
 			buildPhases = (
 				CED6AACE1BD9D3F8001911A0 /* Sources */,
 				CED6AACF1BD9D3F8001911A0 /* Frameworks */,
@@ -261,9 +261,9 @@
 			);
 			dependencies = (
 			);
-			name = OMProject;
+			name = StoryboardController;
 			productName = OMProject;
-			productReference = CED6AAD21BD9D3F8001911A0 /* OMProject.app */;
+			productReference = CED6AAD21BD9D3F8001911A0 /* StoryboardController.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CED6AAE51BD9D3F8001911A0 /* Specs */ = {
@@ -317,21 +317,24 @@
 				TargetAttributes = {
 					CED6AAD11BD9D3F8001911A0 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Y2XN2Z2HA2;
 						LastSwiftMigration = 0820;
 					};
 					CED6AAE51BD9D3F8001911A0 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Y2XN2Z2HA2;
 						LastSwiftMigration = 0820;
 						TestTargetID = CED6AAD11BD9D3F8001911A0;
 					};
 					CED6AAF01BD9D3F8001911A0 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Y2XN2Z2HA2;
 						LastSwiftMigration = 0820;
 						TestTargetID = CED6AAD11BD9D3F8001911A0;
 					};
 				};
 			};
-			buildConfigurationList = CED6AACD1BD9D3F8001911A0 /* Build configuration list for PBXProject "OMProject" */;
+			buildConfigurationList = CED6AACD1BD9D3F8001911A0 /* Build configuration list for PBXProject "StoryboardController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -344,7 +347,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CED6AAD11BD9D3F8001911A0 /* OMProject */,
+				CED6AAD11BD9D3F8001911A0 /* StoryboardController */,
 				CED6AAE51BD9D3F8001911A0 /* Specs */,
 				CED6AAF01BD9D3F8001911A0 /* Features */,
 			);
@@ -430,12 +433,12 @@
 /* Begin PBXTargetDependency section */
 		CED6AAE81BD9D3F8001911A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CED6AAD11BD9D3F8001911A0 /* OMProject */;
+			target = CED6AAD11BD9D3F8001911A0 /* StoryboardController */;
 			targetProxy = CED6AAE71BD9D3F8001911A0 /* PBXContainerItemProxy */;
 		};
 		CED6AAF31BD9D3F8001911A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CED6AAD11BD9D3F8001911A0 /* OMProject */;
+			target = CED6AAD11BD9D3F8001911A0 /* StoryboardController */;
 			targetProxy = CED6AAF21BD9D3F8001911A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -501,7 +504,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-D OMQA";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier)";
-				PROJECT_NAME = OMProject;
+				PRODUCT_NAME = StoryboardController;
+				PROJECT_NAME = StoryboardController;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/StoryboardController-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -515,9 +519,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = StoryboardController;
 			};
 			name = OMQA;
 		};
@@ -525,17 +530,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMProject.app/OMProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryboardController.app/StoryboardController";
 			};
 			name = OMQA;
 		};
 		9E5F629D1D2A3E5B00686871 /* OMQA */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = Features/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier).$(PRODUCT_NAME:rfc1034identifier)";
@@ -586,7 +593,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-D Debug";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier)";
-				PROJECT_NAME = OMProject;
+				PRODUCT_NAME = StoryboardController;
+				PROJECT_NAME = StoryboardController;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/StoryboardController-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -632,7 +640,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier)";
-				PROJECT_NAME = OMProject;
+				PRODUCT_NAME = StoryboardController;
+				PROJECT_NAME = StoryboardController;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/StoryboardController-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -646,9 +655,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = StoryboardController;
 			};
 			name = Debug;
 		};
@@ -657,9 +667,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = "$(PROJECT_NAME)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = StoryboardController;
 			};
 			name = Release;
 		};
@@ -667,11 +678,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMProject.app/OMProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryboardController.app/StoryboardController";
 			};
 			name = Debug;
 		};
@@ -679,17 +691,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier).$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMProject.app/OMProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryboardController.app/StoryboardController";
 			};
 			name = Release;
 		};
 		CED6AB011BD9D3F8001911A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = Features/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier).$(PRODUCT_NAME:rfc1034identifier)";
@@ -702,6 +716,7 @@
 		CED6AB021BD9D3F8001911A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = Features/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.outware.$(PROJECT_NAME:rfc1034identifier).$(PRODUCT_NAME:rfc1034identifier)";
@@ -714,7 +729,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CED6AACD1BD9D3F8001911A0 /* Build configuration list for PBXProject "OMProject" */ = {
+		CED6AACD1BD9D3F8001911A0 /* Build configuration list for PBXProject "StoryboardController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CED6AAF81BD9D3F8001911A0 /* Debug */,
@@ -724,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED6AAFA1BD9D3F8001911A0 /* Build configuration list for PBXNativeTarget "OMProject" */ = {
+		CED6AAFA1BD9D3F8001911A0 /* Build configuration list for PBXNativeTarget "StoryboardController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CED6AAFB1BD9D3F8001911A0 /* Debug */,

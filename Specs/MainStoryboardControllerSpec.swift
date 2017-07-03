@@ -35,4 +35,4 @@ final class MainStoryboardControllerSpec: XCTestCase {
 
 import XCTest
 
-@testable import OMProject
+@testable import StoryboardController
