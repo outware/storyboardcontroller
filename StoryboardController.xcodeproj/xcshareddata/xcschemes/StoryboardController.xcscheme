@@ -14,8 +14,8 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-                     BuildableName = "StoryboardController.app"
+                     BlueprintIdentifier = "DB5399931F0A032C00111E52"
+                     BuildableName = "StoryboardController.framework"
                      BlueprintName = "StoryboardController"
                      ReferencedContainer = "container:StoryboardController.xcodeproj">
                   </BuildableReference>
@@ -32,8 +32,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-               BuildableName = "StoryboardController.app"
+               BlueprintIdentifier = "DB5399931F0A032C00111E52"
+               BuildableName = "StoryboardController.framework"
                BlueprintName = "StoryboardController"
                ReferencedContainer = "container:StoryboardController.xcodeproj">
             </BuildableReference>
@@ -57,22 +57,12 @@
                ReferencedContainer = "container:StoryboardController.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CED6AAF01BD9D3F8001911A0"
-               BuildableName = "Features.xctest"
-               BlueprintName = "Features"
-               ReferencedContainer = "container:StoryboardController.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-            BuildableName = "StoryboardController.app"
+            BlueprintIdentifier = "DB5399931F0A032C00111E52"
+            BuildableName = "StoryboardController.framework"
             BlueprintName = "StoryboardController"
             ReferencedContainer = "container:StoryboardController.xcodeproj">
          </BuildableReference>
@@ -94,8 +84,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-            BuildableName = "StoryboardController.app"
+            BlueprintIdentifier = "DB5399931F0A032C00111E52"
+            BuildableName = "StoryboardController.framework"
             BlueprintName = "StoryboardController"
             ReferencedContainer = "container:StoryboardController.xcodeproj">
          </BuildableReference>
@@ -113,8 +103,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-            BuildableName = "StoryboardController.app"
+            BlueprintIdentifier = "DB5399931F0A032C00111E52"
+            BuildableName = "StoryboardController.framework"
             BlueprintName = "StoryboardController"
             ReferencedContainer = "container:StoryboardController.xcodeproj">
          </BuildableReference>
