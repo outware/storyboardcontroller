@@ -228,6 +228,7 @@
 				CED6AAD01BD9D3F8001911A0 /* Resources */,
 				CE7C723B1BDA021C00CE7C99 /* Embed Frameworks */,
 				DBF566E71ECD61F50057A774 /* Lint Swift */,
+				DB1F3AB41F0A1F0B00FC93E9 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,6 +352,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DB1F3AB41F0A1F0B00FC93E9 /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/StoryboardController.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/StoryboardController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 		DBF566E71ECD61F50057A774 /* Lint Swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
