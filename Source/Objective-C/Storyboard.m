@@ -39,7 +39,7 @@
   UIViewController *viewController = [super instantiateViewControllerWithIdentifier:identifier];
 
   if (self.inject) {
-    for (UIViewController *next in [self allChildViewControllersOf:viewController]) {
+    for (UIViewController *next in [self allChildViewControllersOfViewController:viewController]) {
       self.inject(next);
     }
   }
@@ -47,7 +47,7 @@
   return viewController;
 }
 
-- (NSArray<UIViewController *> *)allChildViewControllersOf:(UIViewController *)viewController {
+- (NSArray<UIViewController *> *)allChildViewControllersOfViewController:(UIViewController *)viewController {
 
   NSMutableArray<UIViewController *> *viewControllers = @[viewController].mutableCopy;
 
@@ -55,7 +55,7 @@
     [viewControllers addObject:_viewController];
 
     if (_viewController.childViewControllers.count > 0) {
-      [self allChildViewControllersOf:_viewController];
+      [self allChildViewControllersOfViewController:_viewController];
     }
   }
 
