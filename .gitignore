@@ -48,4 +48,5 @@ CodeQualityReports/
 # For similar reasons as the Cocoapods one mentioned above.
 # Remove the line below to start tracking the Carthage directory
 
-/Carthage/
+Carthage/
+
