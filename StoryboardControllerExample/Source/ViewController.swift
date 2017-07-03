@@ -4,18 +4,12 @@ final class ViewController: UIViewController {
 
   @IBOutlet private var greetingLabel: UILabel!
 
+  var greeting: Greeting!
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    greetingLabel.text = Greeting.hello
+    greetingLabel.text = greeting.message
   }
-
-}
-
-struct Greeting {
-
-  static let hello: String = "Hello, world!"
-
-  private init() { }
 
 }
 
