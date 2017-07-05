@@ -4,13 +4,13 @@ final class MainStoryboardController: StoryboardController {
 
   var storyboardName: String = "Main"
 
-  func injectDependencies(in viewController: UIViewController) {
+  func injectDependencies(into viewController: UIViewController) {
 
     switch viewController {
 
     case let viewController as ViewController:
-
       viewController.greeting = Greeting(message: "Hello, world!")
+
     default: break
     }
   }
@@ -26,3 +26,5 @@ struct Greeting {
   }
 
 }
+
+import StoryboardController

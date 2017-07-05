@@ -11,4 +11,4 @@ final class GreetingSpec: XCTestCase {
 
 import XCTest
 
-@testable import StoryboardController
+@testable import StoryboardControllerExample

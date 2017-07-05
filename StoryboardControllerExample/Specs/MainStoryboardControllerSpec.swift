@@ -33,6 +33,7 @@ final class MainStoryboardControllerSpec: XCTestCase {
 
 }
 
+import StoryboardController
 import XCTest
 
-@testable import StoryboardController
+@testable import StoryboardControllerExample
