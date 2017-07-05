@@ -15,9 +15,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-                     BuildableName = "OMProject.app"
-                     BlueprintName = "OMProject"
-                     ReferencedContainer = "container:OMProject.xcodeproj">
+                     BuildableName = "StoryboardControllerExample.app"
+                     BlueprintName = "StoryboardControllerExample"
+                     ReferencedContainer = "container:StoryboardControllerExample.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-               BuildableName = "OMProject.app"
-               BlueprintName = "OMProject"
-               ReferencedContainer = "container:OMProject.xcodeproj">
+               BuildableName = "StoryboardControllerExample.app"
+               BlueprintName = "StoryboardControllerExample"
+               ReferencedContainer = "container:StoryboardControllerExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -54,7 +54,7 @@
                BlueprintIdentifier = "CED6AAE51BD9D3F8001911A0"
                BuildableName = "Specs.xctest"
                BlueprintName = "Specs"
-               ReferencedContainer = "container:OMProject.xcodeproj">
+               ReferencedContainer = "container:StoryboardControllerExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -64,7 +64,7 @@
                BlueprintIdentifier = "CED6AAF01BD9D3F8001911A0"
                BuildableName = "Features.xctest"
                BlueprintName = "Features"
-               ReferencedContainer = "container:OMProject.xcodeproj">
+               ReferencedContainer = "container:StoryboardControllerExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-            BuildableName = "OMProject.app"
-            BlueprintName = "OMProject"
-            ReferencedContainer = "container:OMProject.xcodeproj">
+            BuildableName = "StoryboardControllerExample.app"
+            BlueprintName = "StoryboardControllerExample"
+            ReferencedContainer = "container:StoryboardControllerExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-            BuildableName = "OMProject.app"
-            BlueprintName = "OMProject"
-            ReferencedContainer = "container:OMProject.xcodeproj">
+            BuildableName = "StoryboardControllerExample.app"
+            BlueprintName = "StoryboardControllerExample"
+            ReferencedContainer = "container:StoryboardControllerExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -114,9 +114,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CED6AAD11BD9D3F8001911A0"
-            BuildableName = "OMProject.app"
-            BlueprintName = "OMProject"
-            ReferencedContainer = "container:OMProject.xcodeproj">
+            BuildableName = "StoryboardControllerExample.app"
+            BlueprintName = "StoryboardControllerExample"
+            ReferencedContainer = "container:StoryboardControllerExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

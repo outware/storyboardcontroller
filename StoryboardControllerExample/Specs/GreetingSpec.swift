@@ -3,12 +3,12 @@
 final class GreetingSpec: XCTestCase {
 
   func testHelloWorldGreeting() {
-    let greeting = Greeting.hello
-    XCTAssert(greeting == "Hello, world!")
+    let greeting = Greeting(message: "Hello, world!")
+    XCTAssert(greeting.message == "Hello, world!")
   }
 
 }
 
 import XCTest
 
-@testable import OMProject
+@testable import StoryboardControllerExample

@@ -1,0 +1,26 @@
+disabled_rules:
+  - closing_brace
+  - opening_brace
+  - variable_name
+  - type_name
+
+included:
+  - Source
+  - Specs
+excluded:
+  - Carthage
+
+trailing_whitespace:
+  severity: error
+
+line_length:
+  warning: 135
+  error: 135
+
+type_body_length:
+  warning: 300
+  error: 400
+
+file_length:
+  warning: 500
+  error: 1200
