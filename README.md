@@ -1,23 +1,33 @@
-# iOS Swift Project Template
+# Intro
 
-Please make sure you are familiar with these ground rules:
+## Problem at hand
 
-- [Coding Style Guidline](Documents/coding-style-guideline.md)
-- [Development Cycle](Documents/development-cycle.md)
+In order to inject dependencies to view controllers, it is common to use one of the following pattern:
 
-# Initial Checklist
+* `prepare(for segue: UIStoryboardSegue, sender: Any?)` in a parent view controller (with storyboard)
+* custom initalisers (no storyboard)
 
-## .gitignore
+**However**, the above solutions do not clearly isolate each view controllers. As each of the view controllers
+will have to understand how the next one works in order to inject their dependencies.
 
-By default, the `Carthage/` and `Pods/` folders are not tracked.
+You then end up with a dependency graph that will look like this:
 
-If you would like to start tracking those folders,
-please delete the relevant lines in the `.gitignore` file.
+    ViewControllerA <- ViewControllerB <- ViewControllerC <- etc.
 
-## .swiftlint.yml
+It is then very hard to launch only `ViewControllerC` from somewhere else in the application
+as it obtains its dependency from `ViewControllerB` which also needs `ViewControllerA` for its own dependencies.
 
-By default, `swiftlint` will run as a build step in your main target's Build Phases.
+## Solution Proposed
 
-The configs are specified under the root directory of the repository in a hidden file called `.swiftlint.yml`
+`StoryboardController` provides you with a mechanism to inject dependencies into view controllers that are initialised
+from the storyboard which the controller monitors.
 
-Feel free to modify the config as per project's or dev team's liking.
+The dependency graph then looks like this:
+
+    StoryboardController <- ViewControllerA
+                         <- ViewControllerB
+                         <- ViewControllerC
+
+Given this architecture, it is then possible to initialise `ViewControllerC` from somewhere else in the application
+without depending on the other 2 view controllers.
+
