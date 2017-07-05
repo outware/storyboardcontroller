@@ -7,7 +7,7 @@ public protocol StoryboardController {
 
   var storyboardName: String { get }
 
-  func injectDependencies(in viewController: UIViewController)
+  func injectDependencies(into viewController: UIViewController)
 
 }
 
