@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB5399A61F0A041C00111E52 /* Storyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5399A31F0A03B400111E52 /* Storyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB5399A51F0A041900111E52 /* StoryboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5399A01F0A038200111E52 /* StoryboardController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB89DB081F0C7DCE00FBDD2C /* Storyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5399A31F0A03B400111E52 /* Storyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB89DB061F0C7C6B00FBDD2C /* Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5399A41F0A03B400111E52 /* Storyboard.m */; };
+		DB89DB071F0C7DA900FBDD2C /* StoryboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5399A01F0A038200111E52 /* StoryboardController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB89DB051F0C7C2300FBDD2C /* StoryboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5399A11F0A03B400111E52 /* StoryboardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,8 +94,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5399A61F0A041C00111E52 /* Storyboard.h in Headers */,
-				DB5399A51F0A041900111E52 /* StoryboardController.h in Headers */,
+				DB89DB081F0C7DCE00FBDD2C /* Storyboard.h in Headers */,
+				DB89DB071F0C7DA900FBDD2C /* StoryboardController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB89DB061F0C7C6B00FBDD2C /* Storyboard.m in Sources */,
+				DB89DB051F0C7C2300FBDD2C /* StoryboardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
