@@ -29,12 +29,23 @@ When using the `StoryboardController`, your dependency graph would now look like
 Given this architecture, it is then possible to initialise `ViewControllerC` and inject its dependencies
 without interacting with any of the other view controllers from anywhere in your application.
 
-## Getting started
+## Installation
 
-In order to use `StoryboardController`, please refer to [Carthage](https://github.com/Carthage/Carthage)
-on how to include this framework to your project.
+Currently only supports the iOS platform as it relies on a subclass of `UIStoryboard`.
 
-Once you've added this framework, you should then be able to use it as follow:
+### Carthage
+
+Add the following to your `Cartfile`:
+
+```
+github "michaelloo-outware/storyboardcontroller/
+```
+
+Then run `carthage update --platform iOS`.
+
+Follow the current instructions in [Carthage's README](https://github.com/Carthage/Carthage)` for up to date installation instructions.
+
+## Usage
 
 ```swift
 final class FooStoryboardController: StoryboardController {
