@@ -64,6 +64,8 @@ final class FooStoryboardController: StoryboardController {
   }
 
 }
+
+import StoryboardController
 ```
 
 ## Have a question?
