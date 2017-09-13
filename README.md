@@ -18,16 +18,16 @@ You end up with a dependency graph that looks like this:
     ViewControllerA <- ViewControllerB <- ViewControllerC <- etc.
 
 This makes it very hard to launch only `ViewControllerC` from somewhere else in the application
-as it obtains its dependencies from `ViewControllerB` which in turn obtains its dependencies from `ViewControllerA`.
+as it obtains its dependencies from `ViewControllerB`, which in turn obtains its dependencies from `ViewControllerA`.
 
-When using the `StoryboardController`, your dependency graph would now look like this:
+On the other hand, when using the `StoryboardController`, the dependency graph looks like this:
 
     StoryboardController <- ViewControllerA
                          <- ViewControllerB
                          <- ViewControllerC
 
-Given this architecture, it is then possible to initialise `ViewControllerC` and inject its dependencies
-without interacting with any of the other view controllers from anywhere in your application.
+which makes it possible to initialise `ViewControllerC` with its dependencies
+from anywhere in your application without having to interact with the other view controllers.
 
 ## Installation
 
@@ -74,9 +74,9 @@ If you need any help, please visit our [GitHub issues](https://github.com/michae
 
 We would love to see your contribution to this project!
 
-To do so, we have a couple of guidelines to make this process as painless as possible:
+Here are some steps to make this process as painless as possible:
 
 1. Fork this repository,
-1. Improve stuffs,
-1. Run `carthage build --no-skip-current` and fix any issues that arises, and
+1. Improve stuff,
+1. Run `carthage build --no-skip-current` and fix any issues that arise, and
 1. Submit a pull request!
