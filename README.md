@@ -10,15 +10,15 @@ In order to inject dependencies into view controllers, it is common to use one o
 * `prepare(for segue: UIStoryboardSegue, sender: Any?)` in a parent view controller (with storyboard)
 * custom initalisers (no storyboard)
 
-**However**, the above solutions do not clearly isolate each view controllers. As each of the view controllers
+**However**, the above solutions do not clearly isolate each view controller as each of the them
 will have to understand how the next one works in order to inject their dependencies.
 
-You then end up with a dependency graph that will look like this:
+You end up with a dependency graph that looks like this:
 
     ViewControllerA <- ViewControllerB <- ViewControllerC <- etc.
 
-It is then very hard to launch only `ViewControllerC` from somewhere else in the application
-as it obtains its dependencies from `ViewControllerB` which also needs `ViewControllerA` for its own dependencies.
+This makes it very hard to launch only `ViewControllerC` from somewhere else in the application
+as it obtains its dependencies from `ViewControllerB` which in turn obtains its dependencies from `ViewControllerA`.
 
 When using the `StoryboardController`, your dependency graph would now look like this:
 
