@@ -43,7 +43,7 @@ github "michaelloo-outware/storyboardcontroller/
 
 Then run `carthage update --platform iOS`.
 
-Follow the current instructions in [Carthage's README](https://github.com/Carthage/Carthage)` for up to date installation instructions.
+Follow the current instructions in [Carthage's README](https://github.com/Carthage/Carthage) for up-to-date installation instructions.
 
 ## Usage
 
