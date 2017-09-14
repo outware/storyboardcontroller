@@ -68,6 +68,8 @@ final class FooStoryboardController: StoryboardController {
 import StoryboardController
 ```
 
+A sample project is available [here](StoryboardControllerExample/).
+
 ## Have a question?
 
 If you need any help, please visit our [GitHub issues](https://github.com/outware/storyboardcontroller/issues). Feel free to file an issue if you do not manage to find any solution from the archives.
