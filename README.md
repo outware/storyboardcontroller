@@ -45,7 +45,7 @@ Then run `carthage update --platform iOS`.
 
 Refer to [Carthage's README](https://github.com/Carthage/Carthage) for up-to-date installation instructions.
 
-## Usage
+## Example
 
 ```swift
 final class FooStoryboardController: StoryboardController {
