@@ -38,7 +38,7 @@ Currently only supports the iOS platform as it relies on a subclass of `UIStoryb
 Add the following to your `Cartfile`:
 
 ```
-github "michaelloo-outware/storyboardcontroller/
+github "outware/storyboardcontroller"
 ```
 
 Then run `carthage update --platform iOS`.
