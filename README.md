@@ -70,7 +70,7 @@ import StoryboardController
 
 ## Have a question?
 
-If you need any help, please visit our [GitHub issues](https://github.com/michaelloo-outware/storyboardcontroller/issues). Feel free to file an issue if you do not manage to find any solution from the archives.
+If you need any help, please visit our [GitHub issues](https://github.com/outware/storyboardcontroller/issues). Feel free to file an issue if you do not manage to find any solution from the archives.
 
 ## Contributing to this project
 
