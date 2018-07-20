@@ -1,5 +1,7 @@
 //Copyright © 2017 Outware Mobile. All rights reserved.
 
+import StoryboardController
+
 final class MainStoryboardController: StoryboardController {
 
   var storyboardName: String = "Main"
@@ -26,5 +28,3 @@ struct Greeting {
   }
 
 }
-
-import StoryboardController

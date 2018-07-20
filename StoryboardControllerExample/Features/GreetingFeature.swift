@@ -1,5 +1,7 @@
 //  Copyright © 2017 Outware Mobile. All rights reserved.
 
+import XCTest
+
 final class GreetingFeature: XCTestCase {
 
   var app: XCUIApplication!
@@ -17,5 +19,3 @@ final class GreetingFeature: XCTestCase {
   }
 
 }
-
-import XCTest

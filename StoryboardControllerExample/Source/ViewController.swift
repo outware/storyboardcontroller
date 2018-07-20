@@ -1,5 +1,7 @@
 //  Copyright © 2017 Outware Mobile. All rights reserved.
 
+import UIKit
+
 final class ViewController: UIViewController {
 
   @IBOutlet private var greetingLabel: UILabel!
@@ -12,5 +14,3 @@ final class ViewController: UIViewController {
   }
 
 }
-
-import UIKit

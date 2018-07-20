@@ -1,5 +1,8 @@
 //  Copyright © 2015 Outware Mobile. All rights reserved.
 
+import StoryboardController
+import UIKit
+
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +18,3 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
 }
-
-import StoryboardController
-import UIKit
