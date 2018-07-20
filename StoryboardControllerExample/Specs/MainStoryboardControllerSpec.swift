@@ -1,5 +1,10 @@
 //Copyright © 2017 Outware Mobile. All rights reserved.
 
+import StoryboardController
+import XCTest
+
+@testable import StoryboardControllerExample
+
 final class MainStoryboardControllerSpec: XCTestCase {
 
   private var storyboardController: StoryboardController!
@@ -32,8 +37,3 @@ final class MainStoryboardControllerSpec: XCTestCase {
   }
 
 }
-
-import StoryboardController
-import XCTest
-
-@testable import StoryboardControllerExample

@@ -1,5 +1,9 @@
 //  Copyright © 2017 Outware Mobile. All rights reserved.
 
+import XCTest
+
+@testable import StoryboardControllerExample
+
 final class GreetingSpec: XCTestCase {
 
   func testHelloWorldGreeting() {
@@ -8,7 +12,3 @@ final class GreetingSpec: XCTestCase {
   }
 
 }
-
-import XCTest
-
-@testable import StoryboardControllerExample
